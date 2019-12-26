@@ -1,0 +1,37 @@
+body
+{
+    margin: 0;
+    background-image: url("../assets/Map@1x.png");
+    background-color: #151925;
+    font-family: Lato;
+}
+
+body :first-child{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38.7%;
+    max-height: 110px;
+    max-width: 146px;
+}
+body :nth-child(2){  
+  font-size: 33px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+}
+body :nth-child(3){  
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    text-align: center;
+    color: #99a0ae;
+  }
+  body :nth-child(1){  
+    font-size: 11px;
+    font-weight: 500;
+    font-stretch: normal;
+    text-align: center;
+    color: #fbfcff;
+  }
