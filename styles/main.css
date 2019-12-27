@@ -28,9 +28,10 @@ body :nth-child(3){
     text-align: center;
     color: #99a0ae;
   }
-  body :nth-child(1){  
+  body :nth-child(4){  
     font-size: 11px;
     font-weight: 500;
+    margin-top: 36.7%;
     font-stretch: normal;
     text-align: center;
     color: #fbfcff;
