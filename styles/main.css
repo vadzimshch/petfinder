@@ -4,6 +4,7 @@ body
     background-image: url("../assets/Map@1x.png");
     background-color: #151925;
     font-family: Lato;
+    text-align: center;
 }
 
 body :first-child{
@@ -17,22 +18,23 @@ body :first-child{
 body :nth-child(2){  
   font-size: 33px;
   font-weight: 500;
-  font-style: italic;
-  text-align: center;
+  font-style: italic;  
   color: #ffffff;
 }
 body :nth-child(3){  
     font-size: 11px;
     font-weight: 500;
     font-stretch: normal;
-    text-align: center;
     color: #99a0ae;
-  }
-  body :nth-child(4){  
-    font-size: 11px;
-    font-weight: 500;
-    margin-top: 36.7%;
-    font-stretch: normal;
-    text-align: center;
-    color: #fbfcff;
-  }
+ }
+
+ @media(min-width: 480px){
+  body :first-child{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    max-height: 110px;
+    max-width: 146px;
+}
+ }
